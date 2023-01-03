@@ -6,6 +6,8 @@ This analysis is a webpage that allows users to search and filter UFO sightings 
 
 ## Results:
 
+### Welcome to UFO Sightings!
+
 To perform a search, users can enter a date, city, and state in the designated input fields and click the "Filter Table" button. The table will then display the results of the search, including the date, city, state, shape, and duration of the UFO sightings that match the search criteria. Users can also sort the table by clicking on the column headers.
 
 In addition to the search functionality, the webpage includes an explanatory text that provides context and background information on UFO sightings and the role of citizen-scientists in cataloguing these sightings.
