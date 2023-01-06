@@ -1,3 +1,4 @@
+
 function buildTable(data) {
     // First, clear out any existing data
     tbody.html("");
@@ -57,13 +58,7 @@ function buildTable(data) {
   buildTable(filteredData);
 };
 // Attach an event to listen for the form button
-d3.selectAll("#filter-btn").on("click", handleClick);
-
-document.addEventListener("keydown", function(event) {
-  if (event.key === "Enter") {
-    handleClick();
-  }
-});
+d3.selectAll("input").on("change", handleClick);
 
 // Build the table when the page loads
 buildTable(tableData);
